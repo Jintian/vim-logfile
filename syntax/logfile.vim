@@ -10,11 +10,10 @@ endif
 
 syn match fatal ".* FATAL .*"
 syn match error ".* ERROR .*"
+syn match error ".*Exception.*"
 syn match warn ".* WARN .*"
 syn match info ".* INFO .*"
 syn match debug ".* DEBUG .*"
-syn match error ".*Exception.*"
-syn match error ".*Error.*"
 
 hi fatal ctermfg=Red ctermbg=Black
 hi error ctermfg=Red ctermbg=Black
