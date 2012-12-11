@@ -8,18 +8,18 @@ if exists("b:current_syntax")
 endif
 
 
-syn match fatal ".* FATAL .*"
-syn match error ".* ERROR .*"
+syn match fatal ".*FATAL.*"
 syn match error ".*Exception.*"
-syn match warn ".* WARN .*"
-syn match info ".* INFO .*"
-syn match debug ".* DEBUG .*"
+syn match error ".*ERROR.*"
+syn match warn ".*WARN.*"
+syn match info ".*INFO.*"
+syn match debug ".*DEBUG.*"
 
-hi fatal ctermfg=Red ctermbg=Black
-hi error ctermfg=Red ctermbg=Black
-hi warn ctermfg=Yellow ctermbg=Black
-hi info ctermfg=Green ctermbg=Black
-hi debug ctermfg=Gray ctermbg=Black
+hi fatal ctermfg=Red ctermbg=Black guifg=Red guibg=Black
+hi error ctermfg=magenta ctermbg=Black guifg=magenta guibg=Black
+hi warn ctermfg=Yellow ctermbg=Black guifg=Yellow guibg=Black
+hi info ctermfg=Green ctermbg=Black guifg=Green guibg=Black
+hi debug ctermfg=Gray ctermbg=Black guifg=Gray guibg=Black
 
 
 let b:current_syntax = "logfile"

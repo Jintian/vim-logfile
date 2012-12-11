@@ -13,7 +13,7 @@
 
 ## Preview
 ----
-![vim-logfile-preview](http://blog.dengjintian.com/wp-content/uploads/2012/12/2012-12-08_2142.png)
+![vim-logfile-preview](http://blog.dengjintian.com/wp-content/uploads/2012/12/2012-12-11_1954.png)
 
 
 ## Installation
